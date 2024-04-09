@@ -1,0 +1,27 @@
+/*
+*/
+.example{
+	width:350px;
+	height: 305px;
+	background: pink;
+	position: relative;
+}
+.example img{
+	width: 100%;
+	height: 100%;
+
+
+}
+.title{
+	position: absolute;
+	right: 0;
+	bottom: 0;
+	background: green;
+	color: red;
+	padding: 20px;
+	display: none;
+}
+.example:hover.title 
+{
+	display: block;
+}

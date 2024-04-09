@@ -1,0 +1,29 @@
+
+}
+body{
+	height:20000px;
+}
+.a{
+	width: 200px;
+	height: 200px;
+
+}
+.box1{
+	background:green;
+	position: fixed;
+	right:0;
+	bottom:0;
+}
+.box2{
+	background: red;
+	position: relative;
+	top: 120px; left: 120px;
+}
+.box3{
+	background:yellow;
+	position: sticky;
+	top: 10px
+}
+.box4{
+
+}

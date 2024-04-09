@@ -1,0 +1,46 @@
+p:first-child{
+	background:orange;
+}
+p:last-child{
+	background:green;
+}
+p:nth-child(odd){
+	background: pink;
+}
+p:nth-child(even){
+	text-decoration: underline;
+
+
+}
+p:nth-child(2), p:(4){
+	background: red;
+}
+a:visited{
+	color: red;
+}
+a:link{
+	color: green;
+
+}
+a:hover{
+color: blue;
+}
+a:active{
+	color: pink;
+}
+input:required{
+	border: 2px solid red;
+}
+input:read-only{
+	color: green;
+}
+input:focus{
+	outline: 4px solid blue;
+}
+:root{
+	--brand:pink;
+	--size:100px
+}
+h1{
+	width: var(--size); height:var(--size); background: var(--brand)
+}
